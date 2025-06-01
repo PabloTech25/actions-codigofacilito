@@ -1,3 +1,3 @@
 # Hola!
 
-Este el primer ejerciciio del Bootcamp GitHub Actions
+Esta es la primera actividad del Bootcamp GitHub Actions.
