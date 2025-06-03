@@ -12,3 +12,10 @@ jobs:
       - run: echo "Correr migraciones"
       - run: echo "Generar binario"
       - run: echo "Publicar version"
+
+  second-job:
+    needs: deploy-codigofacilito
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hola Mundo
+        run: echo "Hola mundo"
